@@ -19,7 +19,7 @@ export default function App() {
   const googleFormUrl = "https://forms.google.com"
 
   return (
-    <div className="min-h-screen bg-white text-[#1a1a1a] font-serif antialiased selection:bg-[#fee2e2] selection:text-[#991b1b]">
+    <div className="min-h-screen bg-white text-[#1a1a1a] font-serif antialiased selection:bg-blue-100 selection:text-blue-900">
       
       {/* Main Academic Container (Clean, Standalone & Authoritative) */}
       <main className="max-w-[820px] mx-auto px-6 sm:px-10 py-12 sm:py-16">
@@ -34,8 +34,8 @@ export default function App() {
             A Hands-on Workshop on Quantum Communication, Quantum Network, and Post-Quantum Cryptography
           </h1>
 
-          {/* Crimson Red Date Headline */}
-          <div className="text-2xl sm:text-[32px] text-[#991b1b] font-normal tracking-tight my-2">
+          {/* Date Headline in Distinctive Academic Royal Blue */}
+          <div className="text-2xl sm:text-[32px] text-[#1e40af] font-normal tracking-tight my-2">
             7–11 December 2026
           </div>
 
