@@ -248,3 +248,4 @@ export default function HomePage({ onNavigate }) {
     </div>
   )
 }
+
