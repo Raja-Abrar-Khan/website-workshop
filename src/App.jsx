@@ -29,48 +29,38 @@ export default function App() {
         {/* ========================================================= */}
         <header className="mb-8">
           
-          {/* Workshop Title */}
-          <h1 className="text-3xl sm:text-[38px] lg:text-[42px] font-normal tracking-tight text-[#111827] leading-[1.25] mb-2.5">
-            A Hands-on Workshop on Quantum Communication, Quantum Network, and Post-Quantum Cryptography
+          {/* Main Workshop Title from Official Proposal */}
+          <h1 className="text-3xl sm:text-[38px] lg:text-[42px] font-normal tracking-tight text-[#111827] leading-[1.25] mb-2">
+            Foundations and Applications of Quantum Technologies
           </h1>
 
+          <div className="text-base sm:text-xl text-[#374151] font-normal italic mb-3 leading-snug">
+            A Hands-on Workshop on Quantum Communication, Quantum Network, and Post-Quantum Cryptography
+          </div>
+
           {/* Date Headline in Distinctive Academic Royal Blue */}
-          <div className="text-2xl sm:text-[32px] text-[#1e40af] font-normal tracking-tight my-2">
+          <div className="text-2xl sm:text-[30px] text-[#1e40af] font-normal tracking-tight my-2">
             7–11 December 2026
           </div>
 
-          {/* Subtitle Line */}
-          <div className="text-base sm:text-lg text-[#374151] font-normal mt-1">
-            ACM India & National Quantum Mission Initiative : A Technical Faculty & Researcher Workshop
-          </div>
-
-          {/* Host University / Lab in Academic Blue */}
+          {/* Host Department & Institute in Academic Blue Link */}
           <div className="text-base sm:text-lg text-[#1d4ed8] font-normal mt-1">
             <a href="#venue" className="hover:underline">
-              Centre for Quantum Technologies (CYQT Lab), Department of Computer Science & Quantum Engineering
+              Department of Computer Science and Engineering, Indian Institute of Technology Jammu
             </a>
           </div>
 
           {/* Clean Academic Divider */}
           <hr className="my-6 border-t border-[#d1d5db]" />
 
-          {/* Organizing Attribution */}
+          {/* In Partnership Attribution */}
           <p className="text-sm sm:text-base text-[#4b5563] italic leading-relaxed">
-            Organised by CYQT Lab in collaboration with the National Quantum Mission (NQM) & Department of Science and Technology (DST), hosted at CYQT Lab Simulation Wing.
+            Organized by Department of Computer Science and Engineering, Indian Institute of Technology Jammu • In Partnership with IITM C-DOT Samgnya Technologies Foundation under the National Quantum Mission (NQM).
           </p>
-        </header>
 
-        {/* Minimalist Academic Navigation Links */}
-        <nav className="my-6 py-2 border-y border-[#e5e7eb] font-sans text-xs sm:text-sm text-[#4b5563] flex flex-wrap gap-x-5 gap-y-2">
-          <a href="#about" className="hover:text-[#1d4ed8] hover:underline">About</a>
-          <a href="#objectives" className="hover:text-[#1d4ed8] hover:underline">Objectives</a>
-          <a href="#curriculum" className="hover:text-[#1d4ed8] hover:underline">Curriculum & Labs</a>
-          <a href="#schedule" className="hover:text-[#1d4ed8] hover:underline">Schedule & Menu</a>
-          <a href="#speakers" className="hover:text-[#1d4ed8] hover:underline">Speakers & Trainers</a>
-          <a href="#capacity" className="hover:text-[#1d4ed8] hover:underline">Capacity & Facilities</a>
-          <a href="#venue" className="hover:text-[#1d4ed8] hover:underline">Dates & Venue</a>
-          <a href="#register" className="text-[#1d4ed8] font-semibold hover:underline">Registration (Google Form)</a>
-        </nav>
+          {/* Academic Divider matching reference website */}
+          <hr className="my-6 border-t border-[#d1d5db]" />
+        </header>
 
         {/* ========================================================= */}
         {/* 1. ABOUT */}
@@ -91,33 +81,6 @@ export default function App() {
 
         <hr className="my-8 border-t border-[#e5e7eb]" />
 
-        {/* ========================================================= */}
-        {/* 2. OBJECTIVES */}
-        {/* ========================================================= */}
-        <section id="objectives" className="my-10">
-          <h2 className="text-2xl font-normal text-[#111827] mb-3.5">
-            Objectives
-          </h2>
-          <p className="text-[15px] sm:text-base text-[#374151] mb-4 leading-relaxed">
-            The workshop is structured around four primary objectives:
-          </p>
-          <ul className="list-disc pl-6 space-y-2.5 text-[15px] sm:text-base text-[#1f2937] leading-[1.7]">
-            <li>
-              <strong>Final Workshop Curriculum & Practical Agenda:</strong> Mastering fundamental quantum principles (Bloch sphere, Bell inequality, state tomography), discrete-variable QKD protocols (BB84, decoy states, E91), and modern lattice-based cryptographic algorithms (NIST FIPS 203/204) through daily 2.5-hour hands-on coding sessions.
-            </li>
-            <li>
-              <strong>List of Proposed Trainers & Research Personnel:</strong> Mentorship from eminent university faculty, scientists from national quantum hubs, and cryptographic engineers guiding personalized 1:1 workstation benchmarks and doctoral research directions.
-            </li>
-            <li>
-              <strong>Confirmed Operational Logistics & Facilities:</strong> Providing 50 dedicated high-performance Linux workstations within a 2,500+ sq. ft. Simulation Hall (Hall B) and adjoining Optical Testbed Wing (Room 104) with verified attendance tracking and executive dining.
-            </li>
-            <li>
-              <strong>Brand Identity & Participant Experience:</strong> Joint accreditation under the National Quantum Mission (NQM), official delegate passes, hardbound laboratory manuals, high-resolution group photography, and authorized Completion Certificates.
-            </li>
-          </ul>
-        </section>
-
-        <hr className="my-8 border-t border-[#e5e7eb]" />
 
         {/* ========================================================= */}
         {/* 3. CURRICULUM & LABORATORY MODULES */}
@@ -276,7 +239,7 @@ export default function App() {
             <div className="border border-[#e5e7eb] p-4 bg-[#f9fafb]/50">
               <div className="font-bold text-[#111827] text-base">Dr. A. K. Sharma</div>
               <div className="text-xs text-[#1d4ed8] font-sans font-medium">Senior Principal Scientist & Workshop Convener</div>
-              <div className="text-xs text-[#6b7280] font-sans">CYQT Lab & National Quantum Hub</div>
+              <div className="text-xs text-[#6b7280] font-sans">Department of CSE, IIT Jammu</div>
               <p className="text-xs text-[#374151] mt-2 font-serif leading-relaxed">
                 Specialization in discrete-variable QKD protocols, single-photon sources, and QBER threshold limits. Conducting Days 1 & 2.
               </p>
@@ -369,9 +332,9 @@ export default function App() {
                 <p className="text-[#6b7280] text-xs mt-0.5">Daily Timings: 08:30 AM to 05:00 PM IST</p>
               </div>
               <div>
-                <span className="font-bold text-[#111827] block mb-1">Host Laboratory</span>
-                <p className="text-[#1f2937] font-semibold">CYQT Lab Complex, Simulation Hall B (Ground Floor)</p>
-                <p className="text-[#6b7280] text-xs mt-0.5">Dept. of Computer Science & Quantum Engineering</p>
+                <span className="font-bold text-[#111827] block mb-1">Host Institution & Laboratory</span>
+                <p className="text-[#1f2937] font-semibold">Department of Computer Science and Engineering</p>
+                <p className="text-[#6b7280] text-xs mt-0.5">Indian Institute of Technology Jammu (IIT Jammu)</p>
               </div>
             </div>
           </div>
@@ -461,11 +424,11 @@ export default function App() {
             <div className="border border-[#e5e7eb] p-5 bg-white">
               <h4 className="font-bold text-[#111827] mb-2 font-serif">Organizing Secretariat</h4>
               <div className="text-xs font-sans text-[#4b5563] space-y-1.5 leading-relaxed">
-                <p><strong>Convener:</strong> Dr. A. K. Sharma (General Chair)</p>
-                <p><strong>Technical Lead:</strong> Prof. Priya Nair (Program Chair)</p>
-                <p><strong>Email:</strong> <a href="mailto:workshop.quantum@cyqtlab.org" className="text-[#1d4ed8] underline font-medium">workshop.quantum@cyqtlab.org</a></p>
+                <p><strong>Convener:</strong> Workshop Coordinator, Department of CSE</p>
+                <p><strong>Host:</strong> Department of Computer Science and Engineering, IIT Jammu</p>
+                <p><strong>Email:</strong> <a href="mailto:workshop.quantum@iitjammu.ac.in" className="text-[#1d4ed8] underline font-medium">workshop.quantum@iitjammu.ac.in</a></p>
                 <p><strong>Helpline:</strong> +91 98765 43210 (9:00 AM – 6:00 PM IST)</p>
-                <p><strong>Desk:</strong> CYQT Lab Complex, Room 204, Quantum Research Wing</p>
+                <p><strong>Campus Address:</strong> Department of CSE, IIT Jammu, Jagti, NH-44, PO Nagrota, Jammu - 181221</p>
               </div>
             </div>
 
@@ -497,8 +460,8 @@ export default function App() {
 
         {/* Footer */}
         <footer className="mt-16 pt-8 border-t border-[#d1d5db] text-xs font-sans text-[#6b7280] flex flex-col sm:flex-row items-center justify-between gap-3">
-          <p>© 2026 CYQT Lab & National Quantum Mission. All rights reserved.</p>
-          <p>A Hands-on Workshop on Quantum Communication, Quantum Network, and Post-Quantum Cryptography</p>
+          <p>© 2026 Department of CSE, IIT Jammu & IITM C-DOT Samgnya Technologies Foundation. All rights reserved.</p>
+          <p>Foundations and Applications of Quantum Technologies</p>
         </footer>
 
       </main>
